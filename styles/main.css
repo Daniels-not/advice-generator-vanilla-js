@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: #202632;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .card {
+  background-color: #4e5d73;
+  width: 92%;
+  max-width: 54rem;
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4rem 2rem 6.4rem;
+  position: relative;
+}
+
+.container .card #advice-id {
+  color: #52ffa8;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  letter-spacing: 0.35rem;
+}
+
+.container .card .advice {
+  color: #cee3e9;
+  font-size: 2.35rem;
+  text-align: center;
+  margin-top: 2.5rem;
+  line-height: 141%;
+}
+
+.container .card .divider {
+  margin-top: 2.4rem;
+}
+
+.container .card .desktop {
+  display: none;
+}
+
+.container .card .btn {
+  background-color: #52ffa8;
+  padding: 2rem;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  cursor: pointer;
+}
+
+.container .card .btn:hover {
+  -webkit-box-shadow: 0 0 3rem rgba(82, 255, 168, 0.75);
+          box-shadow: 0 0 3rem rgba(82, 255, 168, 0.75);
+}
+
+@media screen and (min-width: 1440px) {
+  .container .card {
+    padding: 4.8rem 4.5rem 7rem 4.5rem;
+  }
+  .container .card #advice-id {
+    font-size: 1.2rem;
+    letter-spacing: 0.47rem;
+  }
+  .container .card .advice {
+    font-size: 2.74rem;
+  }
+  .container .card .mobile {
+    display: none;
+  }
+  .container .card .desktop {
+    display: block;
+  }
+  .container .card .divider {
+    margin-top: 3.8rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */

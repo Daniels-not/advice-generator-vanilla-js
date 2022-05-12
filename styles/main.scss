@@ -1,0 +1,19 @@
+//Colors
+
+// Primary
+
+$LightCyan: hsl(193, 38%, 86%);
+$NeonGreen: hsl(150, 100%, 66%);
+
+//Neutral
+
+$GrayishBlue: hsl(217, 19%, 38%);
+$DarkGrayishBlue: hsl(220, 22%, 16%);
+$DarkBlue: hsl(218, 23%, 16%);
+
+// imports
+
+@import "./base/_resets.scss";
+@import "./components/_card.scss";
+@import "./layout/_mediadesk.scss";
+

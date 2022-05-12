@@ -1,0 +1,30 @@
+@media screen and (min-width: 1440px) {
+    .container {
+
+        .card {
+
+            padding: 4.8rem 4.5rem 7rem 4.5rem;
+
+            #advice-id {
+                font-size: 1.2rem;
+                letter-spacing: 0.47rem;
+            }
+
+            .advice {
+                font-size: 2.74rem;
+            }
+
+            .mobile {
+                display: none;
+            }
+
+            .desktop {
+                display: block;
+            }
+
+            .divider {
+                margin-top: 3.8rem;
+            }
+        }
+    }
+}
